@@ -1,0 +1,33 @@
+// import Log from "../components/Log";
+import Dealscard from "../components/Dealscard";
+import Nav from "../components/Nav";
+// import Register from "../components/Register";
+// import Forgotpass from "../components/Forgotpass";
+
+
+
+export default function Loginpage() {
+  return (
+    
+
+
+
+    <>
+    <Nav />
+    <div className='  flex flex-wrap items-center  justify-center'>
+        <Dealscard
+        image="img"
+        name="Wireless Headphones"
+        percentage="50"
+        price="240"
+        rating="4"
+        description='gvbhv hjbhjbv hbhjubvhj'
+        />
+        
+
+    </div>
+
+    </>
+  
+  )
+}
